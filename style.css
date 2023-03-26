@@ -1,0 +1,91 @@
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: rgb(245, 238, 238);
+}
+
+/* hero background image */
+.bgimage {
+    height: 475px;;
+   background: url('https://img.freepik.com/free-vector/halftone-background-with-circles_23-2148907689.jpg?w=1060&t=st=1679749534~exp=1679750134~hmac=b576a2c3f5ec1e4b0cf8a2bc8b5a075c1cefa3f0f69b220fe7ecf9717f072bfa');
+   
+   background-size: cover;
+    position:relative;
+    background-position: center;
+
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+   /* background: url('https://img.freepik.com/free-vector/halftone-background-with-circles_23-2148907689.jpg?w=1060&t=st=1679749534~exp=1679750134~hmac=b576a2c3f5ec1e4b0cf8a2bc8b5a075c1cefa3f0f69b220fe7ecf9717f072bfa');*/
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+/* spacing on all sections */
+/* #about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+} */
+#contact {
+    padding-bottom: 4rem;
+}
+/* about section image css */
+.imageAboutmePage {
+    width: 100%;
+    text-align: left;
+    align-content:center;
+    text: white;
+    border-left: 1cm;
+    
+}
+
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+    text-align: left;
+    align-content: center;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: left;
+    align-content: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+    text-align: center;
+}
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #008000;
+}
+.fab {
+    color: #000000;
+}
+/* footer styling */
+#footer {
+    background-color: #808080;
+    text-align: center;
+}
